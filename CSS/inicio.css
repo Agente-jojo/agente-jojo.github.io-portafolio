@@ -1,3 +1,4 @@
+/*SECCION P R E S E N T A C I O N*/
 .presentacion{
   margin: auto;
   color: #fff;
@@ -17,8 +18,10 @@
   right: 0;
   bottom: 0;
   animation: eliminar 4s ease-in-out forwards;
-  animation-delay: 8s;
+  animation-delay: 6s;
   z-index: 2;
+  animation-iteration-count: 2;
+  animation-fill-mode: initial;
 }
 
 @keyframes eliminar {
@@ -84,8 +87,10 @@
   background-color: #06070B;
 }
 
+/*SECCION A B O U T M E*/
+
 .about__me{
-  background: #2F3138;
+  background: #3a3c44;
   background-size: cover;
   padding: 3vh 3vh;
   
@@ -97,7 +102,7 @@
   margin: auto;
   padding: 10px 20px;
   display: flex;
-  background-color: rgba(158, 147, 127, 0.377); /* Agregar el fondo blanco */
+  background-color: rgba(173, 167, 155, 0.377); /* Agregar el fondo blanco */
   box-shadow: 0 0 10px rgba(248, 248, 248, 0.6); /* Agregar una sombra para dar un efecto de tarjeta */
   border-radius: 10px
 }
@@ -143,3 +148,53 @@
   font-family: 'quicksand';
 }
 
+/*SECCION S K I L L S*/
+
+#skills{
+  background: linear-gradient(#595f77, rgba(47, 49, 56, 0.75));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 3vh 3vh;
+}
+.skills__contenedor{
+  margin: auto;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill__titulo{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-family: 'quicksand';
+  text-decoration: underline;
+}
+
+.skill__list{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+.skill__item{
+  max-width: 350px;
+  background-color: #7a7f92d7;
+  padding: 30px;
+  margin: 0 5px;
+  border-radius: 45px;
+}
+
+.skill__item p{
+  padding-top: 2.5rem;
+  color: aliceblue;
+}
+.skill__item img{
+  scale: 1.5;
+}
