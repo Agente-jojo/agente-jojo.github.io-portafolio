@@ -53,6 +53,7 @@
   text-transform: uppercase;
   letter-spacing: 6px;
   font-family: 'quicksand';
+  text-decoration: underline;
 }
 .presentacion h2 {
   font-size: 45px;
@@ -122,6 +123,7 @@
   text-transform: uppercase;
   letter-spacing: 6px;
   font-family: 'quicksand';
+  text-decoration: underline;
 
 }
 
