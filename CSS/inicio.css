@@ -84,11 +84,23 @@
 }
 
 .about__me{
-  max-width: 1100px;
-  margin: auto;
-  padding: 100px 20px;
-  display: flex;
+  background: #2F3138;
+  background-size: cover;
+  padding: 3vh 3vh;
+  
 }
+
+.sobremi__contenedor{
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  background-color: rgba(158, 147, 127, 0.377); /* Agregar el fondo blanco */
+  box-shadow: 0 0 10px rgba(248, 248, 248, 0.6); /* Agregar una sombra para dar un efecto de tarjeta */
+  border-radius: 10px
+}
+
 
 .contenedor__foto{
   max-width: 500px;
@@ -119,6 +131,8 @@
   margin-bottom: 20px;
   letter-spacing: 2px;
   font-family: 'Courier New', Courier, monospace;
+  color: #C1D4EC;
+  max-width: 1100px;
 }
 .sobremi__nombre span{
   font-size: 23px;
