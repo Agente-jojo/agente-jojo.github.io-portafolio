@@ -27,12 +27,12 @@
   background-color: rgba(217, 207, 172, 0.6);
 }
 
-#sobremi .sobremi__contenedor{
+.sobremi .sobremi__contenedor{
   display: inline-block;
   text-justify: auto;
   justify-content: center;
 }
-#sobremi .sobremi__titulo{
+.sobremi .sobremi__titulo{
   font-size: 3rem;
   font-weight: 600;
   margin-bottom: 20px;

@@ -1,3 +1,10 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 50px);
+}
+body{
+  scroll-padding-top: 120px;
+}
 .fondo{
   background-image: url(../images/wallpapersden.com_elden-ring-age-of-stars-5k_2560x1440.jpg);
   background-size: cover;
