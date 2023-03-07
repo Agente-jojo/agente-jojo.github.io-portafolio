@@ -10,7 +10,7 @@
 }
 .skills__contenedor{
   margin: auto;
-  padding: 10px 20px;
+  padding-bottom: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -25,19 +25,24 @@
   letter-spacing: 6px;
   font-family: 'quicksand';
   text-decoration: underline;
+  color: #C1D4EC;
 }
 
 .skill__list{
+  max-width: fit-content;
   display: flex;
   justify-content: space-around;
-  max-width: 1100px;
+  align-items: center;
   margin: 30px auto;
+  flex-wrap: wrap;
 }
+
 .skill__item{
-  max-width: 700px;
+  width: 200px;
+  height: 150px;
   background-color: #7a7f92d7;
-  padding: 30px;
-  margin: 0 5px;
+  padding: 1.8rem;
+  margin:5px;
   border-radius: 45px;
 }
 
@@ -47,4 +52,5 @@
 }
 .skill__item img{
   scale: 1.5;
+  padding-top: 15px;
 }
