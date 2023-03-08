@@ -21,7 +21,7 @@
 
 .contenedor__foto{
   max-width: 500px;
-  margin-right: 100px;
+
   padding: 15px;
   border-radius: 15px;
   background-color: rgba(217, 207, 172, 0.6);
@@ -57,4 +57,18 @@
   color: #D9CFAC;
   font-weight: bold;
   font-family: 'quicksand';
+}
+
+.cv{
+  text-decoration: none;
+  width: 80px;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 40%;
+  padding: 20px 20px;
+  border: 2px solid #A599D0;
+  border-radius: 55px;
+  background-color: #3a3c44;
+  color: #D9CFAC;
+  text-align: center;
 }
