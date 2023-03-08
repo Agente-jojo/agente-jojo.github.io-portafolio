@@ -86,3 +86,11 @@
   border-radius: 55px;
   background-color: #06070B;
 }
+
+/* Estilos para pantallas más pequeñas */
+@media only screen and (max-width: 768px){
+  .presentacion{
+    margin-top: 10vh;
+    background-color: rgba(106, 143, 184, 0.45);
+  }
+}
