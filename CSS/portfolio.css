@@ -31,7 +31,7 @@
 
 .portfolio__list{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
   align-items: center;
   margin: 30px auto;
@@ -70,4 +70,34 @@
   color: #1B2133;
   font-weight: 300;
   font-size: 25px;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+  .contenedor__portofio{
+    margin: auto;
+  padding-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .portfolio__list{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .portfolio__items{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  
+  }
+  .portfolio__items img{
+    max-width: 300px;
+    min-height: 0;
+    padding: 0;
+  }
+  .portfolio__items p{
+    font-size: 20px;
+  }
 }

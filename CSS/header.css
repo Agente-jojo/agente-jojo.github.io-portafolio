@@ -12,29 +12,94 @@
 
 .nav__list{
   text-align: center;
+  display: flex;
 }
 
 .nav__items{
   font-size: 1.5rem;
-  display: inline-block;
   margin-right: 1.2rem;
   margin-left: 1rem;
   vertical-align: middle;
   font-family: 'Josefin Sans', sans-serif;
-  transition: 1seg;
+  transition: 0.3seg;
   color: #1B2133;
 }
 
-.icon{
-  font-size: 70px;
-}
-
-.escalado:hover{
-  transform: scale(1.5);
+.ham{
+  display: none;
   cursor: pointer;
+  border: none;
+  margin: 0%;
+  padding: 0%;
+  background-color: transparent;
 }
 
+.ham span{
+  display: block;
+  background-color: #f3f3f3;
+  height: 3px;
+  width: 28px;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+.escalado:hover{
+  transform: scale(1.4);
+  cursor: pointer;
+  background-color: #505b7a;
+}
 
+@media screen and (max-width: 768px){
+  body{
+    /* overflow: hidden; */
+  }
+  .ham{
+    display: block;
+    position: absolute;
+    top: 2.5px;
+    right: 25px;
+    transition: 0.3s 0.2s;
+  }
+  .ham:hover{
+    transform: rotate(360deg);
+  }
+  .head__navigation{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 0;
+  }
+  .nav__list{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 92vh;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: none;
+    opacity: 0;
+  }
+  .nav__items{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+}
 
+@keyframes muestraMenu{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.nav__list.activado{
+  display: flex;
+  animation: muestraMenu 350ms ease-in-out both;
+}
 
-
+.barra1.animado{
+  transform: rotate(-45deg) translate(-10px, 8px);
+}
+.barra2.animado{
+  opacity: 0;
+}
+.barra3.animado{
+  transform: rotate(45deg) translate(-10px, -8px);
+}

@@ -72,3 +72,33 @@
   color: #D9CFAC;
   text-align: center;
 }
+
+/* Estilos para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+  .sobremi__contenedor {
+    flex-direction: column;
+    padding: 5vh 2vh;
+  }
+  
+  .contenedor__foto img{
+    max-width: 100%;
+    margin: 20px 0;
+  }
+  
+  .sobremi__nombre, h3, p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .sobremi__titulo {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .cv {
+    margin-left: calc(50% - 80px);
+  }
+}
