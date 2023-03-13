@@ -21,10 +21,12 @@
 
 .contenedor__foto{
   max-width: 500px;
-
   padding: 15px;
   border-radius: 15px;
   background-color: rgba(217, 207, 172, 0.6);
+}
+.contenedor__foto img{
+  padding: 20% 0;
 }
 
 .sobremi .sobremi__contenedor{
@@ -81,8 +83,9 @@
   }
   
   .contenedor__foto img{
-    max-width: 100%;
+    max-width: fit-content;
     margin: 20px 0;
+    
   }
   
   .sobremi__nombre, h3, p {
