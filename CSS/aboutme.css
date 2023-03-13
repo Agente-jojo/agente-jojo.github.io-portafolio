@@ -83,7 +83,7 @@
   }
   
   .contenedor__foto img{
-    max-width: fit-content;
+    max-width: 100%;
     margin: 20px 0;
     
   }
