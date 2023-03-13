@@ -43,9 +43,10 @@
   border-radius: 2px;
 }
 .escalado:hover{
-  transform: scale(1.4);
+  transform: scale(1.2);
   cursor: pointer;
   background-color: #505b7a;
+  padding: 0.75rem;
 }
 
 @media screen and (max-width: 768px){
